@@ -4,7 +4,7 @@ import { ShoppingBag, Menu, X } from "lucide-react";
 export default function Header({ onNavigate }) {
   const [open, setOpen] = React.useState(false);
 
-  const navItems = ["Home", "About", "Products", "Contact"];
+  const navItems = ["Home"];
 
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
